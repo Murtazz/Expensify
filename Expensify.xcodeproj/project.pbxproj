@@ -16,6 +16,19 @@
 		3E080B9729EDDBD100793732 /* ExpensifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E080B9629EDDBD100793732 /* ExpensifyTests.swift */; };
 		3E080BA129EDDBD100793732 /* ExpensifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E080BA029EDDBD100793732 /* ExpensifyUITests.swift */; };
 		3E080BA329EDDBD100793732 /* ExpensifyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E080BA229EDDBD100793732 /* ExpensifyUITestsLaunchTests.swift */; };
+		3E080BB029EDDC0D00793732 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E080BAF29EDDC0D00793732 /* Transaction.swift */; };
+		3E080BB329EDDC7100793732 /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = 3E080BB229EDDC7100793732 /* SwiftUIFontIcon */; };
+		3E080BB529EDDC9300793732 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E080BB429EDDC9300793732 /* Extentions.swift */; };
+		3E080BB929EE030200793732 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E080BB829EE030200793732 /* AddViewController.swift */; };
+		3EFD50BD29EE5117007DCD92 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD50BC29EE5117007DCD92 /* DatePickerViewController.swift */; };
+		3EFD50BF29EE515B007DCD92 /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD50BE29EE515B007DCD92 /* TransactionList.swift */; };
+		3EFD50C129EF5788007DCD92 /* SharedTransactionsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD50C029EF5788007DCD92 /* SharedTransactionsList.swift */; };
+		3EFD50C329F08035007DCD92 /* AllTransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD50C229F08035007DCD92 /* AllTransactionsViewController.swift */; };
+		3EFD50C529F243FC007DCD92 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD50C429F243FC007DCD92 /* DetailViewController.swift */; };
+		3EFD50C729F2508E007DCD92 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD50C629F2508E007DCD92 /* EditViewController.swift */; };
+		3EFD50C929F250B5007DCD92 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD50C829F250B5007DCD92 /* ImageViewController.swift */; };
+		3EFD515229F4DC76007DCD92 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EFD515129F4DC76007DCD92 /* libsqlite3.tbd */; };
+		3EFD51D829F4E5BD007DCD92 /* Expensify.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD51D629F4E5BD007DCD92 /* Expensify.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +62,19 @@
 		3E080B9C29EDDBD100793732 /* ExpensifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpensifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E080BA029EDDBD100793732 /* ExpensifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensifyUITests.swift; sourceTree = "<group>"; };
 		3E080BA229EDDBD100793732 /* ExpensifyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensifyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3E080BAF29EDDC0D00793732 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		3E080BB429EDDC9300793732 /* Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		3E080BB829EE030200793732 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		3EFD50BC29EE5117007DCD92 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		3EFD50BE29EE515B007DCD92 /* TransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionList.swift; sourceTree = "<group>"; };
+		3EFD50C029EF5788007DCD92 /* SharedTransactionsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTransactionsList.swift; sourceTree = "<group>"; };
+		3EFD50C229F08035007DCD92 /* AllTransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTransactionsViewController.swift; sourceTree = "<group>"; };
+		3EFD50C429F243FC007DCD92 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3EFD50C629F2508E007DCD92 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		3EFD50C829F250B5007DCD92 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		3EFD514C29F4DB3E007DCD92 /* Expensify-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Expensify-Bridging-Header.h"; sourceTree = "<group>"; };
+		3EFD515129F4DC76007DCD92 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3EFD51D729F4E5BD007DCD92 /* Expensift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Expensift.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EFD515229F4DC76007DCD92 /* libsqlite3.tbd in Frameworks */,
+				3E080BB329EDDC7100793732 /* SwiftUIFontIcon in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +111,7 @@
 				3E080B9529EDDBD100793732 /* ExpensifyTests */,
 				3E080B9F29EDDBD100793732 /* ExpensifyUITests */,
 				3E080B7D29EDDBCF00793732 /* Products */,
+				3EFD515029F4DC75007DCD92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +129,24 @@
 			isa = PBXGroup;
 			children = (
 				3E080B7F29EDDBCF00793732 /* AppDelegate.swift */,
+				3EFD51D629F4E5BD007DCD92 /* Expensify.xcdatamodeld */,
 				3E080B8129EDDBCF00793732 /* SceneDelegate.swift */,
 				3E080B8329EDDBCF00793732 /* ViewController.swift */,
 				3E080B8529EDDBCF00793732 /* Main.storyboard */,
+				3E080BAF29EDDC0D00793732 /* Transaction.swift */,
+				3E080BB429EDDC9300793732 /* Extentions.swift */,
 				3E080B8829EDDBD100793732 /* Assets.xcassets */,
 				3E080B8A29EDDBD100793732 /* LaunchScreen.storyboard */,
 				3E080B8D29EDDBD100793732 /* Info.plist */,
+				3E080BB829EE030200793732 /* AddViewController.swift */,
+				3EFD50BC29EE5117007DCD92 /* DatePickerViewController.swift */,
+				3EFD50BE29EE515B007DCD92 /* TransactionList.swift */,
+				3EFD50C029EF5788007DCD92 /* SharedTransactionsList.swift */,
+				3EFD50C229F08035007DCD92 /* AllTransactionsViewController.swift */,
+				3EFD50C429F243FC007DCD92 /* DetailViewController.swift */,
+				3EFD50C629F2508E007DCD92 /* EditViewController.swift */,
+				3EFD50C829F250B5007DCD92 /* ImageViewController.swift */,
+				3EFD514C29F4DB3E007DCD92 /* Expensify-Bridging-Header.h */,
 			);
 			path = Expensify;
 			sourceTree = "<group>";
@@ -127,6 +168,14 @@
 			path = ExpensifyUITests;
 			sourceTree = "<group>";
 		};
+		3EFD515029F4DC75007DCD92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EFD515129F4DC76007DCD92 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +192,9 @@
 			dependencies = (
 			);
 			name = Expensify;
+			packageProductDependencies = (
+				3E080BB229EDDC7100793732 /* SwiftUIFontIcon */,
+			);
 			productName = Expensify;
 			productReference = 3E080B7C29EDDBCF00793732 /* Expensify.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E080BA929EDDBD100793732 /* Build configuration list for PBXNativeTarget "ExpensifyTests" */;
 			buildPhases = (
+				76BDE06A10DFA0DE676CF93A /* [CP] Check Pods Manifest.lock */,
 				3E080B8E29EDDBD100793732 /* Sources */,
 				3E080B8F29EDDBD100793732 /* Frameworks */,
 				3E080B9029EDDBD100793732 /* Resources */,
@@ -169,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E080BAC29EDDBD100793732 /* Build configuration list for PBXNativeTarget "ExpensifyUITests" */;
 			buildPhases = (
+				E394A6F4FCA0ADF6B1B7E514 /* [CP] Check Pods Manifest.lock */,
 				3E080B9829EDDBD100793732 /* Sources */,
 				3E080B9929EDDBD100793732 /* Frameworks */,
 				3E080B9A29EDDBD100793732 /* Resources */,
+				6797F74AAB698ABB40EA79FA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,6 +250,7 @@
 				TargetAttributes = {
 					3E080B7B29EDDBCF00793732 = {
 						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1430;
 					};
 					3E080B9129EDDBD100793732 = {
 						CreatedOnToolsVersion = 14.3;
@@ -215,6 +271,9 @@
 				Base,
 			);
 			mainGroup = 3E080B7329EDDBCF00793732;
+			packageReferences = (
+				3E080BB129EDDC7100793732 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */,
+			);
 			productRefGroup = 3E080B7D29EDDBCF00793732 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -253,13 +312,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6797F74AAB698ABB40EA79FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Expensify-ExpensifyUITests/Pods-Expensify-ExpensifyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Expensify-ExpensifyUITests/Pods-Expensify-ExpensifyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Expensify-ExpensifyUITests/Pods-Expensify-ExpensifyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76BDE06A10DFA0DE676CF93A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExpensifyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E394A6F4FCA0ADF6B1B7E514 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Expensify-ExpensifyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E080B7829EDDBCF00793732 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EFD50C529F243FC007DCD92 /* DetailViewController.swift in Sources */,
+				3EFD50C129EF5788007DCD92 /* SharedTransactionsList.swift in Sources */,
 				3E080B8429EDDBCF00793732 /* ViewController.swift in Sources */,
+				3EFD50BF29EE515B007DCD92 /* TransactionList.swift in Sources */,
 				3E080B8029EDDBCF00793732 /* AppDelegate.swift in Sources */,
+				3E080BB929EE030200793732 /* AddViewController.swift in Sources */,
+				3EFD50C929F250B5007DCD92 /* ImageViewController.swift in Sources */,
+				3EFD50C329F08035007DCD92 /* AllTransactionsViewController.swift in Sources */,
+				3E080BB529EDDC9300793732 /* Extentions.swift in Sources */,
+				3EFD50C729F2508E007DCD92 /* EditViewController.swift in Sources */,
+				3EFD51D829F4E5BD007DCD92 /* Expensify.xcdatamodeld in Sources */,
+				3EFD50BD29EE5117007DCD92 /* DatePickerViewController.swift in Sources */,
+				3E080BB029EDDC0D00793732 /* Transaction.swift in Sources */,
 				3E080B8229EDDBCF00793732 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +569,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2SX5842NZG;
@@ -443,8 +578,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +588,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = wlu.Expensify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Expensify/Expensify-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -463,6 +600,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2SX5842NZG;
@@ -471,8 +609,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -481,6 +619,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = wlu.Expensify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Expensify/Expensify-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -602,6 +741,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3E080BB129EDDC7100793732 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/huybuidac/SwiftUIFontIcon";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3E080BB229EDDC7100793732 /* SwiftUIFontIcon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E080BB129EDDC7100793732 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */;
+			productName = SwiftUIFontIcon;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		3EFD51D629F4E5BD007DCD92 /* Expensify.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3EFD51D729F4E5BD007DCD92 /* Expensift.xcdatamodel */,
+			);
+			currentVersion = 3EFD51D729F4E5BD007DCD92 /* Expensift.xcdatamodel */;
+			path = Expensify.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3E080B7429EDDBCF00793732 /* Project object */;
 }
